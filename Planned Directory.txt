@@ -1,0 +1,35 @@
+sticky_notes/
+│
+├── manage.py
+├── sticky_notes/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│
+├── notes/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations/
+│   │   ├── __init__.py
+│   │   └── 0001_initial.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── templates/
+│   │   ├── notes/
+│   │   │   ├── base.html
+│   │   │   ├── note_list.html
+│   │   │   ├── note_detail.html
+│   │   │   ├── note_edit.html
+│   │   │   ├── note_confirm_delete.html
+│   ├── static/
+│       ├── notes/
+│           ├── css/
+│               ├── styles.css
+│
+├── db.sqlite3
